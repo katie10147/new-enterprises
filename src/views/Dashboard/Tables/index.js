@@ -13,11 +13,11 @@ function Tables() {
         captions={["Date", "Recipe", "", "Servings", "Cost($)", ""]}
         data={tablesTableData}
       />
-      <Projects
+      {/* <Projects
         title={"Projects Table"}
         captions={["Companies", "Budget", "Status", "Completion", ""]}
         data={dashboardTableData}
-      />
+      /> */}
     </Flex>
   );
 }
