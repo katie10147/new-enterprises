@@ -18,38 +18,38 @@ import {
 } from "components/Icons/Icons";
 
 var dashRoutes = [
+  // {
+  //   path: "/dashboard",
+  //   name: "Dashboard",
+  //   rtlName: "لوحة القيادة",
+  //   icon: <HomeIcon color="inherit" />,
+  //   component: Dashboard,
+  //   layout: "/admin",
+  // },
   {
-    path: "/dashboard",
-    name: "Dashboard",
+    path: "/calendar",
+    name: "Calendar",
     rtlName: "لوحة القيادة",
     icon: <HomeIcon color="inherit" />,
-    component: Dashboard,
-    layout: "/admin",
-  },
-  {
-    path: "/tables",
-    name: "Tables",
-    rtlName: "لوحة القيادة",
-    icon: <StatsIcon color="inherit" />,
     component: Tables,
     layout: "/admin",
   },
   {
-    path: "/billing",
-    name: "Billing",
+    path: "/grocery",
+    name: "Grocery List",
     rtlName: "لوحة القيادة",
     icon: <CreditIcon color="inherit" />,
     component: Billing,
     layout: "/admin",
   },
-  {
-    path: "/rtl-support-page",
-    name: "RTL",
-    rtlName: "آرتيإل",
-    icon: <SupportIcon color="inherit" />,
-    component: RTLPage,
-    layout: "/rtl",
-  },
+  // {
+  //   path: "/rtl-support-page",
+  //   name: "RTL",
+  //   rtlName: "آرتيإل",
+  //   icon: <SupportIcon color="inherit" />,
+  //   component: RTLPage,
+  //   layout: "/rtl",
+  // },
   {
     name: "ACCOUNT PAGES",
     category: "account",

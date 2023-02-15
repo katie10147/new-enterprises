@@ -1,9 +1,15 @@
 // Assets
+import burger from "assets/img/food/burger.png";
+import chicken from "assets/img/food/chicken.png";
+import chilli from "assets/img/food/chilli.png";
+import potato from "assets/img/food/potato.png";
+import salmon from "assets/img/food/salmon.png";
 import avatar1 from "assets/img/avatars/avatar1.png";
 import avatar2 from "assets/img/avatars/avatar2.png";
 import avatar3 from "assets/img/avatars/avatar3.png";
 import avatar4 from "assets/img/avatars/avatar4.png";
 import avatar5 from "assets/img/avatars/avatar5.png";
+
 import avatar7 from "assets/img/avatars/avatar7.png";
 import avatar8 from "assets/img/avatars/avatar8.png";
 import avatar9 from "assets/img/avatars/avatar9.png";
@@ -196,59 +202,60 @@ export const rtlTimelineData = [
 
 export const tablesTableData = [
   {
-    logo: avatar1,
-    name: "Esthera Jackson",
-    email: "alexa@simmmple.com",
+    logo: chicken,
+    name: "Easy Chicken Parm",
+    email: "20 minutes",
     subdomain: "Manager",
     domain: "Organization",
-    status: "Online",
-    date: "14/06/21",
-  },
-  {
-    logo: avatar2,
-    name: "Alexa Liras",
-    email: "laurent@simmmple.com",
-    subdomain: "Programmer",
-    domain: "Developer",
     status: "Offline",
-    date: "12/05/21",
-  },
+    date: "02/13/23",
+    day: "Monday",
+    cost: "$5.21"
+  }, 
   {
-    logo: avatar3,
-    name: "Laurent Michael",
-    email: "laurent@simmmple.com",
-    subdomain: "Executive",
-    domain: "Projects",
-    status: "Online",
-    date: "07/06/21",
-  },
-  {
-    logo: avatar4,
-    name: "Freduardo Hill",
-    email: "freduardo@simmmple.com",
+    logo: chilli,
+    name: "Turkey Chilli",
+    email: "1 hour 20 minutes",
     subdomain: "Manager",
     domain: "Organization",
-    status: "Online",
-    date: "14/11/21",
-  },
-  {
-    logo: avatar5,
-    name: "Daniel Thomas",
-    email: "daniel@simmmple.com",
-    subdomain: "Programmer",
-    domain: "Developer",
     status: "Offline",
-    date: "21/01/21",
-  },
+    date: "02/14/23",
+    day: "Tuesday",
+    cost: "$4.52"
+  }, 
   {
-    logo: avatar7,
-    name: "Mark Wilson",
-    email: "mark@simmmple.com",
-    subdomain: "Designer",
-    domain: "UI/UX Design",
+    logo: salmon,
+    name: "Maple Salmon",
+    email: "30 minutes",
+    subdomain: "Manager",
+    domain: "Organization",
     status: "Offline",
-    date: "04/09/20",
-  },
+    date: "02/15/23",
+    day: "Wednesday",
+    cost: "$6.25"
+  }, 
+  {
+    logo: potato,
+    name: "German Potato Pancakes",
+    email: "35 minutes",
+    subdomain: "Manager",
+    domain: "Organization",
+    status: "Offline",
+    date: "02/16/23",
+    day: "Thursday",
+    cost: "$4.20"
+  }, 
+  {
+    logo: burger,
+    name: "Black Bean Veggie Burgers",
+    email: "50 minutes",
+    subdomain: "Manager",
+    domain: "Organization",
+    status: "Offline",
+    date: "02/17/23",
+    day: "Friday",
+    cost: "$3.50"
+  }, 
 ];
 
 export const tablesProjectData = [

@@ -49,6 +49,8 @@ const Authors = ({ title, captions, data }) => {
                   domain={row.domain}
                   status={row.status}
                   date={row.date}
+                  day={row.day}
+                  cost={row.cost}
                 />
               );
             })}
